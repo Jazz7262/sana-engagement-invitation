@@ -58,6 +58,11 @@
     padding-top: 5px;
 }
 
+
+#count-down .title .content h5 {
+    line-height: 2.5;
+}
+
 #count-down .clock .content {
     padding: 20px;
 }

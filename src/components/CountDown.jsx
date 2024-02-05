@@ -46,8 +46,10 @@ function CountDown(props) {
                                 <div className="title">
                                     <div className="content">
                                         {isUrdu ? (
-                                            <h5>
-                                                ہمیں اُس حسین دن کا انتظار ہے
+                                            <h5 className="urdu">
+                                                ہمیں اُس حسین دن 
+                                                <br />
+                                                کا انتظار ہے
                                             </h5>
                                         ) : (
                                             <>
@@ -60,7 +62,7 @@ function CountDown(props) {
                             </div>
                         </div>
                         <div className="col-lg-7 my-auto clock">
-                            <Clock duration={duration} />
+                            <Clock duration={duration} isUrdu={isUrdu} />
                         </div>
                     </div>
                 </div>

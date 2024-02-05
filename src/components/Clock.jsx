@@ -2,6 +2,7 @@ import React from "react";
 
 function Clock(props) {
     var duration = props.duration;
+    const isUrdu = props.isUrdu;
 
     function formatNum(temp) {
         if (temp > 9) return temp;
@@ -15,20 +16,36 @@ function Clock(props) {
                     {duration.days !== 0 && (
                         <li>
                             <p className="num">{formatNum(duration.days)}</p>
-                            <p className="caption">Days</p>
+                            {isUrdu ? (
+                                <p className="caption">دن</p>
+                            ) : (
+                                <p className="caption">Days</p>
+                            )}
                         </li>
                     )}
                     <li>
                         <p className="num">{formatNum(duration.hours)}</p>
-                        <p className="caption">Hours</p>
+                        {isUrdu ? (
+                            <p className="caption">گھنٹے</p>
+                        ) : (
+                            <p className="caption">Hours</p>
+                        )}
                     </li>
                     <li>
                         <p className="num">{formatNum(duration.mins)}</p>
-                        <p className="caption"> Mins </p>
+                        {isUrdu ? (
+                            <p className="caption">منٹ</p>
+                        ) : (
+                            <p className="caption">Mins</p>
+                        )}
                     </li>
                     <li>
                         <p className="num">{formatNum(duration.secs)}</p>
-                        <p className="caption"> Secs </p>
+                        {isUrdu ? (
+                            <p className="caption">سیکنڈ</p>
+                        ) : (
+                            <p className="caption">Secs</p>
+                        )}
                     </li>
                 </ul>
             ) : (
@@ -43,15 +60,27 @@ function Clock(props) {
                     <ul>
                         <li>
                             <p className="num">{formatNum(duration.hours)}</p>
-                            <p className="caption">Hours</p>
+                            {isUrdu ? (
+                                <p className="caption">گھنٹے</p>
+                            ) : (
+                                <p className="caption">Hours</p>
+                            )}
                         </li>
                         <li>
                             <p className="num">{formatNum(duration.mins)}</p>
-                            <p className="caption"> Mins </p>
+                            {isUrdu ? (
+                                <p className="caption">منٹ</p>
+                            ) : (
+                                <p className="caption">Mins</p>
+                            )}
                         </li>
                         <li>
                             <p className="num">{formatNum(duration.secs)}</p>
-                            <p className="caption"> Secs </p>
+                            {isUrdu ? (
+                                <p className="caption">سیکنڈ</p>
+                            ) : (
+                                <p className="caption">Secs</p>
+                            )}
                         </li>
                     </ul>
                 </>
