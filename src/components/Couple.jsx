@@ -465,7 +465,7 @@ function Couple(props) {
                             </p> */}
                                     <p className="mt-2 mt-lg-3">
                                         D/O Janab{" "}
-                                        <strong>D/o M.S. Vali Sahab</strong>
+                                        <strong>M.S. Vali Sahab</strong>
                                     </p>
                                     <p className="mt-1 mt-lg-2">
                                         Paternal Grand D/O Janab{" "}
