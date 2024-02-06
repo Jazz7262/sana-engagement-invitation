@@ -24,7 +24,7 @@ function Slide(props) {
                         {isUrdu ? (
                             <>
                                 <h3 className="urdu">
-                                    ہم اپنے بیٹے کی منگنی کی کر رہے ہیں
+                                    ہم اپنے بیٹے کی منگنی کر رہے ہیں
                                 </h3>
                                 <h1 className="urdu">ہماری تاریخ یاد رکھیں</h1>
                                 <p className="urdu"> فروری 11، 2024۔</p>

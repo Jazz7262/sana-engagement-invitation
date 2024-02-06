@@ -63,6 +63,12 @@
     font-family: "Gulzar", serif;
 }
 
+#header h3.ayat,
+#header h4.special-urdu,
+#header h4.urdu {
+    line-height: 1.8;
+}
+
 #header .bg-container {
     width: 100%;
     height: 100%;

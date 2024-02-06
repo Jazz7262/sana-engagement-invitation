@@ -102,6 +102,10 @@
     min-width: 44.29px;
 }
 
+
+#count-down .clock .caption.urdu {
+    margin-top: 12px;
+}
 /* Tablet Wide Screens */
 @media (max-width: 992px) {
 }

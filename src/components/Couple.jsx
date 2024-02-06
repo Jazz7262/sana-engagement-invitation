@@ -21,7 +21,7 @@ function Couple(props) {
                 ></Particles>
                 {isUrdu ? (
                     <h1 className="title-quote urdu">
-                        خوش قسمت جوڑے کی منگنی ہو رہی ہے 
+                        خوش قسمت جوڑے کی منگنی ہو رہی ہے
                     </h1>
                 ) : (
                     <h1 className="title-quote">
@@ -190,7 +190,7 @@ function Couple(props) {
                                         T. Mohammed Ziauddin{" "}
                                         <sub>B.Tech - CSE,</sub>
                                     </h3>
-                                    <p className="urdu mt-2 mt-lg-3">
+                                    <p className="mt-2 mt-lg-3">
                                         Profession:{" "}
                                         <strong>Angular Developer,</strong> at
                                         Trianz.
@@ -426,7 +426,7 @@ function Couple(props) {
                             {isUrdu ? (
                                 <>
                                     <h3 className="urdu">
-                                        <sub>B.Com., B.Sc.</sub> ،{" "}
+                                        <sub>(B.Com., B.Sc.)</sub> ،{" "}
                                         <strong>یم ۪ ثنا سلطانہ </strong>
                                     </h3>
 
@@ -456,8 +456,9 @@ function Couple(props) {
                             ) : (
                                 <>
                                     <h3>
-                                        Dukhtar -e- Nek Akhtar,
-                                        {/* <sub>(Moulvi),</sub> */}
+                                        {/* Dukhtar -e- Nek Akhtar,  */}
+                                        M. Sana Sultana
+                                        <sub>(B.Com., B.Sc.),</sub>
                                     </h3>
                                     {/* <p className="mt-2 mt-lg-3">
                                 Professsion: <strong>Software Engineer,</strong>

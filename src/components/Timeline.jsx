@@ -40,7 +40,6 @@ function Timeline(props) {
                                 <p className="urdu">
                                     بعد نمازِ ظہر ، بوقت ٢ بجے دن
                                 </p>
-                                <p className="urdu mb-4">بوقت ٢ بجے دن</p>
 
                                 <h1 className="urdu">بمقام</h1>
                                 <p className="urdu">انٹرنیشنل فنکشن ہال</p>

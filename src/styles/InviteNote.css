@@ -17,9 +17,20 @@
   line-height: 1.5;
 }
 
+
 #invite-note .address {
   line-height: 1.5;
 }
+
+#invite-note .invite-note-wrapper h2.urdu {
+  line-height: 2.5;
+  
+}
+
+#invite-note .invite-note-wrapper h5.urdu {
+  line-height: 2;
+}
+
 
 /* Tablet Wide Screens */
 @media (max-width: 992px) {

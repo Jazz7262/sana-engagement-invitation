@@ -17,7 +17,7 @@ function Clock(props) {
                         <li>
                             <p className="num">{formatNum(duration.days)}</p>
                             {isUrdu ? (
-                                <p className="caption">دن</p>
+                                <p className="caption urdu">دن</p>
                             ) : (
                                 <p className="caption">Days</p>
                             )}
@@ -26,7 +26,7 @@ function Clock(props) {
                     <li>
                         <p className="num">{formatNum(duration.hours)}</p>
                         {isUrdu ? (
-                            <p className="caption">گھنٹے</p>
+                            <p className="caption urdu">گھنٹے</p>
                         ) : (
                             <p className="caption">Hours</p>
                         )}
@@ -34,7 +34,7 @@ function Clock(props) {
                     <li>
                         <p className="num">{formatNum(duration.mins)}</p>
                         {isUrdu ? (
-                            <p className="caption">منٹ</p>
+                            <p className="caption urdu">منٹ</p>
                         ) : (
                             <p className="caption">Mins</p>
                         )}
@@ -42,7 +42,7 @@ function Clock(props) {
                     <li>
                         <p className="num">{formatNum(duration.secs)}</p>
                         {isUrdu ? (
-                            <p className="caption">سیکنڈ</p>
+                            <p className="caption urdu">سیکنڈ</p>
                         ) : (
                             <p className="caption">Secs</p>
                         )}
@@ -53,7 +53,18 @@ function Clock(props) {
                     {duration.days !== 0 && (
                         <div className="days-div">
                             <p className="m-0">
-                                {formatNum(duration.days)} Days
+                                {isUrdu ? (
+                                    <>
+                                        {formatNum(duration.days)} {" "}
+                                        <span className="caption urdu m-0">
+                                            دن
+                                        </span>
+                                    </>
+                                ) : (
+                                    <span className="caption m-0">
+                                        {formatNum(duration.days)} Days
+                                    </span>
+                                )}
                             </p>
                         </div>
                     )}
@@ -61,7 +72,7 @@ function Clock(props) {
                         <li>
                             <p className="num">{formatNum(duration.hours)}</p>
                             {isUrdu ? (
-                                <p className="caption">گھنٹے</p>
+                                <p className="caption urdu">گھنٹے</p>
                             ) : (
                                 <p className="caption">Hours</p>
                             )}
@@ -69,7 +80,7 @@ function Clock(props) {
                         <li>
                             <p className="num">{formatNum(duration.mins)}</p>
                             {isUrdu ? (
-                                <p className="caption">منٹ</p>
+                                <p className="caption urdu">منٹ</p>
                             ) : (
                                 <p className="caption">Mins</p>
                             )}
@@ -77,7 +88,7 @@ function Clock(props) {
                         <li>
                             <p className="num">{formatNum(duration.secs)}</p>
                             {isUrdu ? (
-                                <p className="caption">سیکنڈ</p>
+                                <p className="caption urdu">سیکنڈ</p>
                             ) : (
                                 <p className="caption">Secs</p>
                             )}
