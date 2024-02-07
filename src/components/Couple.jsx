@@ -135,6 +135,10 @@ function Couple(props) {
                   </p>
 
                   <p className="urdu">
+                    فرزند جناب <strong>ٹی ۪ باشاہ صاحب</strong>
+                  </p>
+
+                  <p className="urdu">
                     پوتا جناب <strong>ٹی ۪ غوث محی الدین صاحب</strong> مرحوم
                   </p>
 
@@ -154,8 +158,13 @@ function Couple(props) {
                   {/* <p className="mt-1 mt-lg-2"> at Alur.</p> */}
                   {/* <p className="mt-2 mt-lg-3">
               S/O Janab{" "}
-              <strong>Shabeer Ahmed Sahab(Late)</strong>
+              <stron
+              g>Shabeer Ahmed Sahab(Late)</strong>
             </p> */}
+
+                  <p className="mt-1 mt-lg-2">
+                    S/O Janab <strong>T. Basha Sahab,</strong>{" "}
+                  </p>
                   <p className="mt-1 mt-lg-2">
                     Paternal Grand S/O Janab{" "}
                     <strong>T. Ghouse Mohiyuddin Sahab(Late),</strong>{" "}
@@ -165,6 +174,12 @@ function Couple(props) {
                     Maternal Grand S/O Janab{" "}
                     <strong>B. Basheer Ahmed Sahab(Late),</strong>{" "}
                   </p>
+
+                  <p className="mt-2 mt-lg-3">
+                    Residence: #1/541/120, Near Vivekananda Jr. College,
+                  </p>
+                  <p className="mt-1 mt-lg-2">NGO's Colony,</p>
+                  <p className="mt-1 mt-lg-2">Adoni.</p>
 
                   {/* <p className="mt-1 mt-lg-2">
               S/O Janab <strong>B. Khadar Sahab,</strong>{" "}
@@ -324,17 +339,17 @@ function Couple(props) {
               {isUrdu ? (
                 <>
                   <h3 className="urdu">
-                    {/* <sub>(B.Com., B.Sc.)</sub> ،{" "} */}
-                    <strong>دختر نیک اختر</strong>
+                    <sub>(B.Com., B.Sc.)</sub> ،{" "}
+                    <strong> یم ۪یس ۪ ثنا سلطانہ</strong>
                   </h3>
 
                   {/* <p className="urdu mt-2 mt-lg-3">
               پیشہ: ٹرای یانز میں اینگولر ڈویلپر
             </p> */}
 
-                  <p className="urdu">
+                  {/* <p className="urdu">
                     جناب <strong>یم ۪یس ۪ ولی صاحب</strong>{" "}
-                  </p>
+                  </p> */}
 
                   <p className="urdu">
                     پوتی جناب <strong>الحاج یم ۪ عبدل عزیز صاحب</strong> مرحوم
@@ -347,16 +362,16 @@ function Couple(props) {
               ) : (
                 <>
                   <h3>
-                    Dukhtar -e- Nek Akhtar
-                    {/* M. Sana Sultana
-              <sub>(B.Com., B.Sc.),</sub> */}
+                    {/* Dukhtar -e- Nek Akhtar */}
+                    M. Sana Sultana
+                    <sub>(B.Com., B.Sc.),</sub>
                   </h3>
                   {/* <p className="mt-2 mt-lg-3">
               Professsion: <strong>Software Engineer,</strong>
             </p> */}
-                  <p className="mt-2 mt-lg-3">
+                  {/* <p className="mt-2 mt-lg-3">
                     of Janab <strong> M.S. Vali Sahab</strong>
-                  </p>
+                  </p> */}
                   <p className="mt-1 mt-lg-2">
                     Paternal Grand D/O Janab{" "}
                     <strong>Al-Haaj M. Abdul Azeez Sahab(Late),</strong>
@@ -365,11 +380,11 @@ function Couple(props) {
                     Maternal Grand D/O Janab{" "}
                     <strong>C. Ahmed Basha Sahab(Late).</strong>
                   </p>
-                  <p className="mt-1 mt-lg-2">
+                  {/* <p className="mt-1 mt-lg-2">
                     Residence: #21/224/27, Near Navya Hospital,
                   </p>
                   <p className="mt-1 mt-lg-2">Zero Road, SKD Colony,</p>
-                  <p className="mt-1 mt-lg-2">Adoni.</p>
+                  <p className="mt-1 mt-lg-2">Adoni.</p> */}
                   {/* <p className="mt-1 mt-lg-2">Bellari.</p> */}
                   {/* <p className="mt-1 mt-lg-2">
             <p className="mt-2 mt-lg-3">

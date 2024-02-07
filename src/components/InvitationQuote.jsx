@@ -11,13 +11,13 @@ function InvitationQuote(props) {
         {isUrdu ? (
           <>
             <h1 className="urdu">
-              ہمارے بیٹے کے خوابیدہ لمحات قریب ہے ، خوش آمدید ہے ہمارے بڑے دن
+              ہمارے بیٹی کے خوابیدہ لمحات قریب ہے ، خوش آمدید ہے ہمارے بڑے دن
               میں
             </h1>
 
             <h3 className="urdu">
               آپ کو خوشی سے دعوت ہے کہ آپ ہمیں آپ کی قیمتی موجودگی و دعاؤں اور
-              خوشیوں کے ساتھ ہمارے پیارے عزیز بیٹے کی منگنی کے خصوصی موقع پر
+              خوشیوں کے ساتھ ہمارے پیاری عزیز بیٹی کی منگنی کے خصوصی موقع پر
               ہمارے ساتھ شریک ہوں
             </h3>
           </>
@@ -27,7 +27,7 @@ function InvitationQuote(props) {
             <h3>
               We cordially invite you to honour us with your esteemed presence
               and blessings with Family and Friends on the auspicous occasion of
-              the Engagement Ceremony of our beloved Son
+              the Engagement Ceremony of our beloved Daughter
             </h3>
           </>
         )}
